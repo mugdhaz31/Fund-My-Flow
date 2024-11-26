@@ -46,11 +46,13 @@ Follow these simple steps to set up Fund My Flow locally:
    ```bash
    npm install
 
-4. Set Up Razorpay Credentials:
+4. Set Up Razorpay Credentials and other such as login with GitHub in .env.local file:
    
     ```bash
    RAZORPAY_KEY_ID=your-razorpay-key-id
    RAZORPAY_SECRET_KEY=your-razorpay-secret-key
+   GITHUB_CLIENT_ID=your-client-id
+   GITHUB_CLIENT_SECRET=your-client-secret
     
 5. Run the Application:
    
