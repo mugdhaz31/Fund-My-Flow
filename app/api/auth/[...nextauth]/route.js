@@ -97,6 +97,7 @@ export const authoptions = NextAuth({
               email: userEmail,
               username: userEmail.split("@")[0],
               name: profile.name || userEmail.split("@")[0],
+              password: 'defaultpassword',
             });
             await newUser.save();
           }
