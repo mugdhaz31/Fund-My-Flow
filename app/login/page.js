@@ -47,10 +47,10 @@ function Login() {
           <input  type="text"  placeholder="Username"  value={signupData.username}  onChange={(e) => setSignupData({ ...signupData, username: e.target.value })} className="w-full p-3 rounded-lg border border-gray-300 focus:ring focus:outline-none"  required/>
           <input  type="email"  placeholder="Email"  value={signupData.email}  onChange={(e) => setSignupData({ ...signupData, email: e.target.value })}  className="w-full p-3 rounded-lg border border-gray-300 focus:ring focus:outline-none"  required/>
           <input  type="password"   placeholder="Password"  value={signupData.password}  onChange={(e) => setSignupData({ ...signupData, password: e.target.value })} className="w-full p-3 rounded-lg border border-gray-300 focus:ring focus:outline-none"  required/>
-          <button  type="submit"  className="flex-1 p-3  rounded-lg bg-blue-100 hover:bg-blue-200 text-blue-800 transform transition-transform duration-300 hover:scale-105">  Sign Up</button>
+          <button  type="submit"  className="flex-1 p-3  rounded-lg bg-blue-100 hover:bg-blue-200 text-blue-800 transform transition-transform duration-300 hover:scale-105">Sign Up</button>
         </form>
         <p>or</p>
-        <button onClick={() => { signIn("github") }} className="flex items-center w-64 bg-slate-50 text-black border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium  hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transform transition-transform duration-300 hover:scale-105">
+        <button onClick={() => {signIn("github")}} className="flex items-center w-64 bg-slate-50 text-black border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium  hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transform transition-transform duration-300 hover:scale-105">
           <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 73 73" version="1.1">
             <g id="team-collaboration/version-control/github" stroke="none" strokeWidth="1" fill="none"

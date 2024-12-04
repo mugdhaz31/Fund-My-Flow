@@ -4,12 +4,12 @@ import Link from 'next/link';
 
 export default function Home() {
   const { darkMode } = useDarkMode();
-  
+
   return (
     <div className={darkMode ? "bg-gray-900 text-white" : "bg-[#E3F2FD] text-gray-900"}>
       <div className="flex justify-center items-center py-16">
         <div className="text-center">
-          <img src="/logo.png" alt="Logo"  className="h-48 w-48 mx-auto "/>
+          <img src="/logo.png" alt="Logo" className="h-48 w-48 mx-auto " />
           <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 ">Fund My Flow</h4>
           <p className="mt-4 max-w-3xl mx-auto px-4 ">
             Fund My Flow allows creators to receive support from their fans and followers. Whether you&apos;re an artist, writer, musician, or influencer, fund your passion and fuel your creativity with easy contributions. Join now and make your creative journey sustainable!
@@ -24,7 +24,7 @@ export default function Home() {
         <p className="mt-4 text-lg max-w-3xl mx-auto mb-10 px-4">Fund My Flow makes it easy for creators to receive support from their audience. Whether you&apos;re an artist, writer, musician, or influencer, your fans can contribute to your creative journey.</p>
         <div className="flex gap-7 justify-center">
           <Link href="/login"><button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2 transform transition-transform duration-300 hover:scale-105">Start Supporting Today</button> </Link>
-        <Link href="/about"><button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2 transform transition-transform duration-300 hover:scale-105">Read More</button></Link>
+          <Link href="/about"><button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2 transform transition-transform duration-300 hover:scale-105">Read More</button></Link>
         </div>
       </div>
 

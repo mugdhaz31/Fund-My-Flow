@@ -36,7 +36,7 @@ function UserLogin() {
           <h2 className="text-2xl font-bold flex justify-center">Sign In</h2>
           <input  type="text"  placeholder="Username or Email"  value={loginData.identifier}  onChange={(e) => setLoginData({ ...loginData, identifier: e.target.value })}  className="border rounded p-2"  required/>
           <input  type="password"  placeholder="Password" value={loginData.password}  onChange={(e) => setLoginData({ ...loginData, password: e.target.value })}  className="border rounded p-2"  required/>
-          <button  type="submit"  className="flex-1 p-3  rounded-lg bg-blue-100 hover:bg-blue-200 text-blue-800 transform transition-transform duration-300 hover:scale-105"> Sign In</button>
+          <button  type="submit"  className="flex-1 p-3  rounded-lg bg-blue-100 hover:bg-blue-200 text-blue-800 transform transition-transform duration-300 hover:scale-105">Sign In</button>
         </form>
       </div>
     </div>
